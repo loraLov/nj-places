@@ -11,17 +11,6 @@ function App() {
   const [showText, setShowText] = useState(false);
 
 
-const [full, setFull] = useState (data);
-const removePlace = (id) => {
-  nextPlace();
-  let newData = full.filter( item => item.id!==id);
-  console.log(newData);
-  setFull(newData);
- 
-  
-}
-
-
   
   
 
@@ -79,9 +68,6 @@ const removePlace = (id) => {
       </div>
 
 
-<div className = 'container'>
-  <button onClick = {() => removePlace(id)}>Remove as visited</button>
-</div>
 
           </div>
   
