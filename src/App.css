@@ -26,7 +26,6 @@ h1{
   letter-spacing: 2px;
   font-size: 40px;
   color: #2C74B3;
- 
 }
 
 .newButton{
@@ -46,7 +45,7 @@ h5{
   font-size: 20px;
   color: white;
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
   
 }
 
